@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@fontsource/plus-jakarta-sans/400.css';
+@import '@fontsource/plus-jakarta-sans/500.css';
+@import '@fontsource/plus-jakarta-sans/600.css';
+@import '@fontsource/plus-jakarta-sans/700.css';
+
+@layer base {
+  :root {
+    --background: 220 20% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 20% 7%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 20% 7%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 190 100% 50%;
+    --primary-foreground: 220 20% 4%;
+
+    --secondary: 260 60% 50%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 150 100% 50%;
+    --accent-foreground: 220 20% 4%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 12%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --glow-primary: 0 0 30px hsl(190 100% 50% / 0.4);
+    --glow-secondary: 0 0 30px hsl(260 60% 50% / 0.4);
+    --glow-accent: 0 0 20px hsl(150 100% 50% / 0.3);
+    
+    --gradient-primary: linear-gradient(135deg, hsl(190 100% 50%), hsl(260 60% 50%));
+    --gradient-surface: linear-gradient(180deg, hsl(220 20% 10%), hsl(220 20% 5%));
+    --gradient-glow: radial-gradient(ellipse at center, hsl(190 100% 50% / 0.15), transparent 70%);
+
+    --sidebar-background: 220 20% 6%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 15% 12%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 220 15% 18%;
+    --sidebar-ring: 190 100% 50%;
+  }
+
+  .dark {
+    --background: 220 20% 4%;
+    --foreground: 210 40% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-card/60 backdrop-blur-xl border border-border/50;
+  }
+
+  .glass-strong {
+    @apply bg-card/80 backdrop-blur-2xl border border-border/60;
+  }
+
+  .glow-primary {
+    box-shadow: var(--glow-primary);
+  }
+
+  .glow-secondary {
+    box-shadow: var(--glow-secondary);
+  }
+
+  .glow-accent {
+    box-shadow: var(--glow-accent);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .gradient-border {
+    position: relative;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: var(--gradient-primary);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300;
+  }
+
+  .hover-glow:hover {
+    box-shadow: var(--glow-primary);
+  }
+
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px hsl(190 100% 50% / 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px hsl(190 100% 50% / 0.5);
+    }
+  }
+
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      hsl(220 20% 10%) 0%,
+      hsl(220 20% 15%) 50%,
+      hsl(220 20% 10%) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
