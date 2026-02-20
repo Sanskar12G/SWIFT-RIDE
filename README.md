@@ -23,19 +23,6 @@
 
 <br/>
 
-### 📊 **GitHub Stats**
-
-<table align="center">
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=Sanskar12G&show_icons=true&theme=radical&bg_color=0D1117&title_color=00D9FF&icon_color=FF0080&text_color=FFFFFF&border_color=7928CA&hide_border=false"/>
-</td>
-<td>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SamratCrosiya&theme=radical&background=0D1117&ring=00D9FF&fire=FF0080&currStreakLabel=00D9FF&border=7928CA"/>
-</td>
-</tr>
-</table>
-
 </div>
 
 ---
