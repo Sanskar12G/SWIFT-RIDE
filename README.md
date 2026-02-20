@@ -10,10 +10,9 @@
 
 <!-- PROFILE BADGES -->
 <p align="center">
-  <a href="https://linkedin.com/in/samrat-crosiya-42819435a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Samrat_Crosiya-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000&color=0077B5"/>
+  <a href="https://www.linkedin.com/in/sanskar-gohil-8271352aa">
+    <img src="https://img.shields.io/badge/LinkedIn-Sanskar_Gohil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000&color=0077B5"/>
   </a>
-  <a href="https://github.com/SamratCrosiya?tab=repositories">
 <img src="https://img.shields.io/badge/View_All-Repositories-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/>
 </a>
 <br/>
@@ -29,7 +28,7 @@
 <table align="center">
 <tr>
 <td>
-<img src="https://github-readme-stats.vercel.app/api?username=SamratCrosiya&show_icons=true&theme=radical&bg_color=0D1117&title_color=00D9FF&icon_color=FF0080&text_color=FFFFFF&border_color=7928CA&hide_border=false"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sanskar12G&show_icons=true&theme=radical&bg_color=0D1117&title_color=00D9FF&icon_color=FF0080&text_color=FFFFFF&border_color=7928CA&hide_border=false"/>
 </td>
 <td>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=SamratCrosiya&theme=radical&background=0D1117&ring=00D9FF&fire=FF0080&currStreakLabel=00D9FF&border=7928CA"/>
@@ -111,35 +110,15 @@
 
 <br/>
 
-### ⭐ **Star this repository if you find it useful!**
-
-<a href="https://github.com/SamratCrosiya/nextride-ai/stargazers">
-<img src="https://img.shields.io/github/stars/SamratCrosiya/nextride-ai?style=social" alt="GitHub stars"/>
-</a>
-<a href="https://github.com/SamratCrosiya/nextride-ai/network/members">
-<img src="https://img.shields.io/github/forks/SamratCrosiya/nextride-ai?style=social" alt="GitHub forks"/>
-</a>
-<a href="https://github.com/SamratCrosiya/nextride-ai/watchers">
-<img src="https://img.shields.io/github/watchers/SamratCrosiya/nextride-ai?style=social" alt="GitHub watchers"/>
-</a>
-
 <br/><br/>
 
-**Built with ❤️ and ☕ by [Samrat Crosiya](https://github.com/SamratCrosiya)**
+**Built with ❤️ and ☕ **
 
 *"The future of urban mobility starts with a single ride."*
 
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling"/>
-
-</div>.com/SamratCrosiya">
-    <img src="https://img.shields.io/badge/GitHub-SamratCrosiya-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=181717"/>
-  </a>
-  <img src="https://img.shields.io/badge/Version-2025.1.0-00D9FF?style=for-the-badge&labelColor=000000"/>
-  <img src="https://img.shields.io/badge/License-MIT-7928CA?style=for-the-badge&labelColor=000000"/>
-  <img src="https://img.shields.io/badge/Status-Beta-FF0080?style=for-the-badge&labelColor=000000"/>
-</p>
 
 <!-- ANIMATED DIVIDER -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -529,8 +508,8 @@ Color Palette:
 
 ```bash
 # 1️⃣ Clone the Repository
-git clone https://github.com/SamratCrosiya/nextride-ai.git
-cd nextride-ai
+git clone https://github.com/SamratCrosiya/SWIFT-RIDE.git
+cd SWIFT-RIDE
 
 # 2️⃣ Setup Environment Variables
 cp .env.example .env
@@ -755,7 +734,7 @@ First pilot month
 <td width="33%">
 
 #### 🐛 Bug Fixes
-- Check [Issues](https://github.com/SamratCrosiya/nextride-ai/issues)
+- Check [Issues](https://github.com/Sanskar12G/SWIFT-RIDE/issues)
 - Small fixes welcome
 - Include test cases
 
@@ -785,7 +764,7 @@ First pilot month
 # 1. Fork the repository on GitHub
 
 # 2. Clone your fork
-git clone https://github.com/YOUR_USERNAME/nextride-ai.git
+git clone https://github.com/YOUR_USERNAME/SWIFT-RIDE.git
 
 # 3. Create a feature branch
 git checkout -b feature/amazing-feature
@@ -812,18 +791,7 @@ git push origin feature/amazing-feature
 ### **MIT License — Free to Use, Modify, and Distribute**
 
 ```
-Copyright (c) 2025 Samrat Crosiya
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
 
 </div>
 
@@ -841,49 +809,8 @@ copies or substantial portions of the Software.
 
 <br/><br/>
 
-### **Samrat Crosiya**
+### **Sanskar12G**
 
 *Building the future of urban mobility, one line of code at a time*
 
 <br/>
-
-<table align="center">
-<tr>
-<td align="center" width="25%">
-<a href="https://linkedin.com/in/samrat-crosiya-42819435a/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000"/>
-</a>
-</td>
-<td align="center" width="25%">
-<a href="https://github.com/SamratCrosiya">
-<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/>
-</a>
-</td>
-<td align="center" width="25%">
-<a href="https://samratcrosiya.dev">
-<img src="https://img.shields.io/badge/Portfolio-Visit-FF0080?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=000000"/>
-</a>
-</td>
-<td align="center" width="25%">
-<a href="mailto:samrat@example.com">
-<img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000"/>
-</a>
-</td>
-</tr>
-</table>
-
-<br/>
-
-### 🚀 **Other Projects by Samrat**
-
-<table>
-<tr>
-<td width="50%" align="center">
-<a href="https://github.com/SamratCrosiya/MEDIBOT-medical-Chat-bot">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SamratCrosiya&repo=MEDIBOT-medical-Chat-bot&theme=radical&bg_color=0D1117&title_color=00D9FF&icon_color=FF0080&text_color=FFFFFF&border_color=7928CA"/>
-</a>
-<br/>
-<b>🏥 MEDIBOT</b> — AI Medical Chatbot
-</td>
-<td width="50%" align="center">
-<a href="https://github
